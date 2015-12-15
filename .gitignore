@@ -1,0 +1,25 @@
+**/*.bak
+*.sv#
+*.sv~
+.*.sv
+.#*
+
+**/*~
+**/*.q*
+**/*.sd*
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+#ignore temp stuff
+[_@]*
+
+synth/greybox_tmp*/
+synth/db*/
+synth/incremental_db*/
+synth/output_files*/
+synth/simulation*/
+
+interpreter/transcript
+
+synth/Documents*/
